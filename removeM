@@ -1,0 +1,12 @@
+for myfile in `find $PWD -name "*.vim"`
+do
+if [ -f "$myfile" ]; then
+dir=${myfile%/*}
+filename=${myfile##*/}
+oldname=old${filename}
+oldfile=${dir}/${oldname}
+mv ${myfile} ${oldfile}
+tr -d '\015\032' < ${oldfile} > ${myfile}
+rm ${oldfile}
+fi
+done
