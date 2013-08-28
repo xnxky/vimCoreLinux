@@ -2,6 +2,7 @@
 ""************************************************************************
 "this is to source all the customized settings files
 let vimConfigDir = '/home/xxiao/Tools/vim/vimConfig'
+let MYVIMRC = '/home/xxiao/Tools/vim/vimrc'
 execute 'source '.vimConfigDir.'/basic.vim'
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
@@ -22,6 +23,8 @@ execute 'source '.vimConfigDir.'/search.vim'
 execute 'source '.vimConfigDir.'/ctags.vim'
 execute 'source '.vimConfigDir.'/supertab.vim'
 execute 'source '.vimConfigDir.'/errorformat.vim'
+"rope is not supported yet;
+execute 'source '.vimConfigDir.'/rope.vim'
 execute 'source '.vimConfigDir.'/gundo.vim'
 execute 'source '.vimConfigDir.'/syntastic.vim'
 execute 'source '.vimConfigDir.'/makegreen.vim'

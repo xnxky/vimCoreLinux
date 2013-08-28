@@ -109,5 +109,4 @@ fi
 export PYTHONPATH=/home/xxiao/Tools/vim/pythonmodule
 export P4PORT=p4sw:2006
 export P4USER=xxiao
-export P4PASSWD=buildMeister
-export P4CLIENT=XXYKubuntu
+export P4CLIENT=XXYKubuntu1

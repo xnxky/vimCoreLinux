@@ -9,7 +9,6 @@ snippet property "property tge" b
   <name>$1</name>
   <value>$2</value>
 </property>
-endsnippet
 
 snippet ti "Inline tag" b
 <${1:tag}>${2:content}</${1/([\w:._-]+).*/$1/}>

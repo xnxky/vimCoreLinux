@@ -22,6 +22,7 @@ execute 'source '.vimConfigDir.'/search.vim'
 execute 'source '.vimConfigDir.'/ctags.vim'
 execute 'source '.vimConfigDir.'/supertab.vim'
 execute 'source '.vimConfigDir.'/errorformat.vim'
+"rope is not supported yet;
 execute 'source '.vimConfigDir.'/rope.vim'
 execute 'source '.vimConfigDir.'/gundo.vim'
 execute 'source '.vimConfigDir.'/syntastic.vim'

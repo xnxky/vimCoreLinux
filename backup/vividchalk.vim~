@@ -188,26 +188,4 @@ call s:hifg("Special"        ,"#33AA00","DarkGreen",24) " 7
 call s:hifg("Regexp"         ,"#44B4CC","DarkCyan",21) " 74
 call s:hifg("rubyMethod"     ,"#DDE93D","Yellow",77) " 191
 "highlight railsMethod   guifg=#EE1122 ctermfg=1
-hi MarkWord1  ctermbg=Cyan     ctermfg=Black  guibg=#00FFFF    guifg=Black
-hi MarkWord2  ctermbg=Green    ctermfg=Black  guibg=#0000FF    guifg=Black
-hi MarkWord3  ctermbg=Yellow   ctermfg=Black  guibg=#8A2BE2    guifg=Black
-hi MarkWord4  ctermbg=Red      ctermfg=Black  guibg=#A52A2A    guifg=Black
-hi MarkWord5  ctermbg=Magenta  ctermfg=Black  guibg=#DEB887    guifg=Black
-hi MarkWord6  ctermbg=Blue     ctermfg=Black  guibg=#5F9EA0    guifg=Black
-hi MarkWord7  ctermbg=Blue     ctermfg=Black  guibg=#7FFF00    guifg=Black
-hi MarkWord8  ctermbg=Blue     ctermfg=Black  guibg=#FF7F50    guifg=Black
-hi MarkWord9  ctermbg=Blue     ctermfg=Black  guibg=#6495ED    guifg=Black
-hi MarkWord10  ctermbg=Blue     ctermfg=Black  guibg=#DC143C    guifg=Black
-hi MarkWord11  ctermbg=Blue     ctermfg=Black  guibg=#BDB76B    guifg=Black
-hi MarkWord12  ctermbg=Blue     ctermfg=Black  guibg=#FF1493    guifg=Black
-hi MarkWord13  ctermbg=Blue     ctermfg=Black  guibg=#FF00FF    guifg=Black
-hi MarkWord14  ctermbg=Blue     ctermfg=Black  guibg=#FFD700    guifg=Black
-hi MarkWord15  ctermbg=Blue     ctermfg=Black  guibg=#CD5C5C    guifg=Black
-hi MarkWord16  ctermbg=Blue     ctermfg=Black  guibg=#4B0082    guifg=Black
-hi MarkWord17  ctermbg=Blue     ctermfg=Black  guibg=#20B2AA    guifg=Black
-hi MarkWord18  ctermbg=Blue     ctermfg=Black  guibg=#B0C4DE    guifg=Black
-hi MarkWord19  ctermbg=Blue     ctermfg=Black  guibg=#FFA500    guifg=Black
-hi MarkWord20  ctermbg=Blue     ctermfg=Black  guibg=#CD853F    guifg=Black
-hi MarkWord21  ctermbg=Blue     ctermfg=Black  guibg=#DDA0DD    guifg=Black
-hi MarkWord22  ctermbg=Blue     ctermfg=Black  guibg=#FF0000    guifg=Black
-hi MarkWord23  ctermbg=Blue     ctermfg=Black  guibg=#9ACD32    guifg=Black
+
