@@ -1,0 +1,58 @@
+package quickcheck
+
+import common._
+
+import org.scalacheck._
+import Arbitrary._
+import Gen._
+import Prop._
+
+abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
+
+  property("min1") = forAll { a: Int =>
+    val h = insert(a, empty)
+    findMin(h) == a
+  }
+
+  property("getMin") = forAll { (a:Int, b:Int) =>
+    val h1 = insert(a, empty)
+    val h2 = insert(b, h1)
+    findMin(h2) == (a min b)
+  }
+
+  property("empty") = forAll {a:Int =>
+    val h1 = insert(a, empty)
+    val h2 = deleteMin(h1)
+    isEmpty(h2)
+  }
+
+  property("sorted") = forAll { h:H =>
+    checkOrder(h, findMin(h))
+  }
+
+  property("merge") = forAll { (h1:H, h2:H) =>
+    val min1 = findMin(h1)
+    val subMin1 = findMin(deleteMin(h1))
+    val min2 = findMin(h2)
+    val subMin2 = findMin(deleteMin(h2))
+    val firstMin = min1 min min2
+    val secondMin = (min1 max min2) min subMin1 min subMin2
+    val mergedH = meld(h1, h2)
+    (firstMin == findMin(mergedH)) && (secondMin == findMin(deleteMin(mergedH)))
+  }
+
+  def checkOrder(h:H, lastMin:Int):Boolean =
+    if(isEmpty(h)) true
+    else {
+      val curMin = findMin(h)
+      (lastMin<=curMin) && checkOrder(deleteMin(h), curMin)
+    }
+
+  lazy val genHeap: Gen[H] = for{
+    value <- arbitrary[A]
+    origHeap <- oneOf(empty, genHeap)
+  } yield insert(value, origHeap)
+
+  implicit lazy val arbHeap: Arbitrary[H] = Arbitrary(genHeap)
+
+}
