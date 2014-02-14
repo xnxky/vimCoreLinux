@@ -175,7 +175,7 @@ function s:PerformMappings()
     nnoremap <silent> <buffer> <Leader>pK :call <SID>ShowPyDoc('<C-R><C-A>', 0)<CR>
 
     " remap the K (or 'help') key
-    nnoremap <silent> <buffer> K :call <SID>ShowPyDoc(expand("<cword>"), 1)<CR>
+    nnoremap <silent> <buffer> <Leader>k :call <SID>ShowPyDoc(expand("<cword>"), 1)<CR>
 endfunction
 
 if g:pydoc_perform_mappings
