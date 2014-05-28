@@ -5,4 +5,4 @@ let g:airline_section_y = "%{strlen(&filetype)>0?&filetype:''}"
 let g:airline_section_z = '%<%F'
 let g:airline_theme = 'dark'
 
-
+let g:airline_powerline_fonts = 1
