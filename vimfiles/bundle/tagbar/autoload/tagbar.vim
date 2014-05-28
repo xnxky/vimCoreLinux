@@ -3341,7 +3341,7 @@ function! s:GetNearbyTag(all, ...) abort
     for line in range(curline, 1, -1)
         if has_key(fileinfo.fline, line)
             let curtag = fileinfo.fline[line]
-            if a:all || typeinfo.getKind(curtag.fields.kind).stl
+            if a:all || get(typeinfo.getKind(curtag.fields.kind), 'stl', 0)
                 let tag = curtag
                 break
             endif
