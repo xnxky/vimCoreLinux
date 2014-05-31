@@ -91,3 +91,7 @@ set wmw=0
 "***********************************************************************************
 nnoremap <esc> :noh<CR><esc>
 
+"persistent undo
+set undofile
+set undodir=/home/xxiao/Tools/vim/tempDir
+set undolevels=999 "maximum number of changes that can be undone
