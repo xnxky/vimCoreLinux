@@ -1,3 +1,6 @@
 [submodule "vimfiles/bundle/ConqueShell"]
 	path = vimfiles/bundle/ConqueShell
 	url = https://github.com/oplatek/Conque-Shell
+[submodule "vimfiles/bundle/unite"]
+	path = vimfiles/bundle/unite
+	url = https://github.com/Shougo/unite.vim
