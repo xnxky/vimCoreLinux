@@ -31,4 +31,5 @@ execute 'source '.vimConfigDir.'/virtualenv.vim'
 execute 'source '.vimConfigDir.'/ultisnips.vim'
 execute 'source '.vimConfigDir.'/indent.vim'
 execute 'source '.vimConfigDir.'/ctrlp.vim'
+execute 'source '.vimConfigDir.'/ConqueTerm.vim'
 "*************************************************************************
