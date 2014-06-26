@@ -1,0 +1,3 @@
+[submodule "vimfiles/bundle/ConqueShell"]
+	path = vimfiles/bundle/ConqueShell
+	url = https://github.com/oplatek/Conque-Shell
