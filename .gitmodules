@@ -10,3 +10,6 @@
 [submodule "vimfiles/bundle/L9"]
 	path = vimfiles/bundle/L9
 	url = https://github.com/vim-scripts/L9
+[submodule "vimfiles/bundle/ack.vim"]
+	path = vimfiles/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
