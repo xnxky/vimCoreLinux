@@ -2,3 +2,4 @@ backup/
 tempDir/
 vimfiles/bundle/command-t/
 *.pyc
+ctags
