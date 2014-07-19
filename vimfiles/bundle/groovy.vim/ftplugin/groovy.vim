@@ -195,9 +195,9 @@ endif
 if !hasmapto("<SID>RunNoPrompt()")
 	nmap <buffer><unique><silent> <F4> :call <SID>RunNoPrompt()<CR>
 endif
-if !hasmapto("<SID>CompilePrompt()")
-	nmap <buffer><unique><silent> <F5> :call <SID>CompilePrompt()<CR>
-endif
+""if !hasmapto("<SID>CompilePrompt()")
+""	nmap <buffer><unique><silent> <F5> :call <SID>CompilePrompt()<CR>
+""endif
 if !hasmapto("<SID>CompileNoPrompt()")
 	nmap <buffer><unique><silent> <F6> :call <SID>CompileNoPrompt()<CR>
 endif
