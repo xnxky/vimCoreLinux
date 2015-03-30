@@ -1,7 +1,7 @@
 
 ""************************************************************************
 "this is to source all the customized settings files
-let vimConfigDir = '/home/xxiao/Tools/vim/vimConfig'
+let vimConfigDir = '$HOME/Tools/vim/vimConfig'
 execute 'source '.vimConfigDir.'/basic.vim'
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim

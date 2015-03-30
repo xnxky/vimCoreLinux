@@ -10,4 +10,4 @@ if 'VIRTUAL_ENV' in os.environ:
     execfile(activate_this, dict(__file__=activate_this))
 EOF
 
-let g:virtualenv_directory = '/home/xxiao/Tools/vim/virtualEnv'
+let g:virtualenv_directory = '$HOME/Tools/vim/virtualEnv'

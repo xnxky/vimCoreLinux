@@ -49,8 +49,8 @@ set guioptions-=m
 set guioptions-=T
 " Backups & Files
 set backup                     " Enable creation of backup file.
-set backupdir=/home/xxiao/Tools/vim/backup " Where backups will go.
-set directory=/home/xxiao/Tools/vim/tempDir     " Where temporary files will go.
+set backupdir=$HOME/Tools/vim/backup " Where backups will go.
+set directory=$HOME/Tools/vim/tempDir     " Where temporary files will go.
 
 " Add recently accessed projects menu (project plugin)
 set viminfo='100,f1
@@ -93,5 +93,5 @@ nnoremap <esc> :noh<CR><esc>
 
 "persistent undo
 set undofile
-set undodir=/home/xxiao/Tools/vim/tempDir
+set undodir=$HOME/Tools/vim/tempDir
 set undolevels=999 "maximum number of changes that can be undone
