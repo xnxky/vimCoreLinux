@@ -3,3 +3,4 @@ tempDir/
 vimfiles/bundle/command-t/
 *.pyc
 ctags
+tags
