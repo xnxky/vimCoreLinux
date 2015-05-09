@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<C-H>	basic.vim	/^noremap <C-H> <C-W>h$/;"	m
+<C-J>	basic.vim	/^noremap <C-J> <C-W>j$/;"	m
+<C-K>	basic.vim	/^noremap <C-K> <C-W>k$/;"	m
+<C-L>	basic.vim	/^noremap <C-L> <C-W>l$/;"	m
+<C-n>	quickfix.vim	/^noremap <silent> <C-n> :cn <cr>$/;"	m
+<C-p>	quickfix.vim	/^noremap <silent> <C-p> :cp <cr>$/;"	m
+<F2>	paste.vim	/^nnoremap <F2> :set invpaste paste?<CR>$/;"	m
+<c-f11>	eclim.vim	/^nnoremap <silent> <c-f11> :call eclim#vimplugin#FeedKeys('Ctrl+F11', 1)<cr>$/;"	m
+<c-i>	buffer.vim	/^nnoremap <silent> <c-i> :BufSurfBack<CR>$/;"	m
+<c-o>	buffer.vim	/^nnoremap <silent> <c-o> :BufSurfForward<CR>$/;"	m
+<c-space>	autocomp.vim	/^inoremap <silent> <c-space> <c-x><c-o>$/;"	m
+<esc>	basic.vim	/^nnoremap <esc> :noh<CR><esc>$/;"	m
+<f11>	eclim.vim	/^nnoremap <silent> <f11> :call eclim#vimplugin#FeedKeys('F11', 1)<cr>$/;"	m
+<leader>ca	quickfix.vim	/^noremap <leader>ca  :execute "caddexpr '".GetCommand()."Message'"$/;"	m
+<leader>f	nerdtree.vim	/^noremap <silent> <leader>f :NERDTreeFind<CR>$/;"	m
+<leader>gl	ctags.vim	/^nnoremap <leader>gl :!(ctags --file-scope=no *)&$/;"	m
+<leader>gr	ctags.vim	/^nnoremap <leader>gr :!(ctags --file-scope=no -R .)&$/;"	m
+<leader>hh	mark.vim	/^nmap <silent> <leader>hh <Plug>MarkClear$/;"	m
+<leader>hh	mark.vim	/^vmap <silent> <leader>hh <Plug>MarkClear$/;"	m
+<leader>hl	mark.vim	/^nmap <silent> <leader>hl <Plug>MarkSet$/;"	m
+<leader>hl	mark.vim	/^vmap <silent> <leader>hl <Plug>MarkSet$/;"	m
+<leader>hr	mark.vim	/^nmap <silent> <leader>hr <Plug>MarkRegex$/;"	m
+<leader>hr	mark.vim	/^vmap <silent> <leader>hr <Plug>MarkRegex$/;"	m
+<leader>j	tagbar.vim	/^noremap <silent> <leader>j :TagbarToggle<CR>$/;"	m
+<leader>l	taglist.vim	/^noremap <silent> <leader>l :Tlist<CR>$/;"	m
+<leader>mg	makegreen.vim	/^noremap <leader>mg <Plug>MakeGreen $/;"	m
+<leader>n	nerdtree.vim	/^noremap <silent> <leader>n :NERDTreeToggle<CR>$/;"	m
+<leader>ps	eclim.vim	/^noremap <silent> <leader>ps :PythonSearchContext<CR>$/;"	m
+<leader>pt	eclim.vim	/^noremap <silent> <leader>pt :PyLint<CR>$/;"	m
+<leader>rn	rope.vim	/^noremap <leader>rn :RopeRename<CR>$/;"	m
+<leader>rv	gundo.vim	/^nnoremap <silent> <leader>rv :GundoToggle<CR>$/;"	m
+<leader>sc	syntastic.vim	/^noremap <silent> <leader>sc  <Esc>:SyntasticCheck<CR>$/;"	m
+<leader>se	syntastic.vim	/^noremap <silent> <leader>se  <Esc>:Errors<CR>$/;"	m
+<leader>st	syntastic.vim	/^noremap <silent> <leader>st  <Esc>:SyntasticToggleMode<CR>$/;"	m
+<leader>use	ultisnips.vim	/^nnoremap <leader>use :UltiSnipsEdit<CR>$/;"	m
+GC	search.vim	/^command! GC :execute 'vimgrep \/'.expand('<cword>').'\/gj *' | copen$/;"	c
+GR	search.vim	/^command! GR :execute 'vimgrep \/'.expand('<cword>').'\/gj **\/*' | copen$/;"	c
+GetCommand	quickfix.vim	/^function! GetCommand() $/;"	f
+MyDiff	diff.vim	/^function! MyDiff()$/;"	f
+PYTHONPATH	rope.vim	/^let PYTHONPATH = 'C:\\Python27\\Lib\\site-packages\\rope-0.9.3-py2.7.egg\\rope;C:\\Python27\\Lib\\site-packages\\ropevim-0.3_rc-py2.7.egg'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^let Tlist_Ctags_Cmd = '\/usr\/bin\/ctags'$/;"	v
+Tlist_Sort_Type	taglist.vim	/^let Tlist_Sort_Type = 'name'$/;"	v
+g:ConqueTerm_StartMessages	ConqueTerm.vim	/^let g:ConqueTerm_StartMessages = 0$/;"	v
+g:EclimNailgunClient	eclim.vim	/^let g:EclimNailgunClient = 'external'$/;"	v
+g:EclimPythonSearchSingleResult	eclim.vim	/^let g:EclimPythonSearchSingleResult = 'lopen'$/;"	v
+g:SuperTabClosePreviewOnPopupClose	supertab.vim	/^let g:SuperTabClosePreviewOnPopupClose = 1$/;"	v
+g:SuperTabDefaultCompletionType	supertab.vim	/^let g:SuperTabDefaultCompletionType = "context"$/;"	v
+g:SuperTabLongestHighlight	supertab.vim	/^let g:SuperTabLongestHighlight = 1$/;"	v
+g:airline_powerline_fonts	statusline.vim	/^let g:airline_powerline_fonts = 1$/;"	v
+g:airline_section_b	statusline.vim	/^let g:airline_section_b = '%3l\/%L %4v    0x%04B'$/;"	v
+g:airline_section_y	statusline.vim	/^let g:airline_section_y = "%{strlen(&filetype)>0?&filetype:''}"$/;"	v
+g:airline_section_z	statusline.vim	/^let g:airline_section_z = '%<%F'$/;"	v
+g:airline_theme	statusline.vim	/^let g:airline_theme = 'dark'$/;"	v
+g:ctrlp_map	ctrlp.vim	/^let g:ctrlp_map = '<leader>p'$/;"	v
+g:ctrlp_use_cahcing	ctrlp.vim	/^let g:ctrlp_use_cahcing=0$/;"	v
+g:gundo_preview_bottom	gundo.vim	/^let g:gundo_preview_bottom = 1$/;"	v
+g:indentLine_char	indent.vim	/^let g:indentLine_char = " |"$/;"	v
+g:indentLine_color_gui	indent.vim	/^let g:indentLine_color_gui = '#09AA08'$/;"	v
+g:indentLine_color_term	indent.vim	/^let g:indentLine_color_term = 239$/;"	v
+g:syntastic_auto_jump	syntastic.vim	/^let g:syntastic_auto_jump=0$/;"	v
+g:syntastic_auto_loc_list	syntastic.vim	/^let g:syntastic_auto_loc_list=0 $/;"	v
+g:syntastic_check_on_open	syntastic.vim	/^let g:syntastic_check_on_open=0$/;"	v
+g:syntastic_enable_signs	syntastic.vim	/^let g:syntastic_enable_signs=1 $/;"	v
+g:syntastic_loc_list_height	syntastic.vim	/^let g:syntastic_loc_list_height=5$/;"	v
+g:syntastic_mode_map	syntastic.vim	/^let g:syntastic_mode_map = { "mode": "passive",$/;"	v
+g:syntastic_quiet_warnings	syntastic.vim	/^let g:syntastic_quiet_warnings=0 "this is default, so warnings will mess up with error(can not see any difference it makes.)$/;"	v
+g:syntastic_stl_format	syntastic.vim	/^let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'$/;"	v
+g:virtualenv_directory	virtualenv.vim	/^let g:virtualenv_directory = '\/home\/xxiao\/Tools\/vim\/virtualEnv'$/;"	v
+html_dynamic_folds	fold.vim	/^let html_dynamic_folds=1$/;"	v
+html_use_css	fold.vim	/^let html_use_css=1$/;"	v
+mapleader	basic.vim	/^let mapleader = ','$/;"	v
+os.path	virtualenv.vim	/^import os.path$/;"	m
+sys	virtualenv.vim	/^import sys$/;"	m
+vim	virtualenv.vim	/^import vim$/;"	m
+zy	fold.vim	/^noremap zy zfa}$/;"	m
+zz	fold.vim	/^noremap zz za$/;"	m

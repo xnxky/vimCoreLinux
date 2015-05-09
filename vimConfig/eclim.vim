@@ -8,3 +8,4 @@ noremap <silent> <leader>pt :PyLint<CR>
 "add command line back when using Taglist
 set guioptions-=L
 
+let g:EclimCompletionMethod = 'omnifunc'
