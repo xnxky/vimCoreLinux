@@ -55,7 +55,14 @@ set directory=$HOME/Tools/vim/tempDir     " Where temporary files will go.
 " Add recently accessed projects menu (project plugin)
 set viminfo='100,f1
 
-colorscheme vividchalk
+syntax enable
+if has('gui_running')
+    set background=dark
+    colorscheme solarized
+else
+    set t_Co=256
+    colorscheme mayansmoke
+endif
 
 ""************************************************************************************'
 "self defined mapping
@@ -95,7 +102,3 @@ nnoremap <esc> :noh<CR><esc>
 set undofile
 set undodir=$HOME/Tools/vim/tempDir
 set undolevels=999 "maximum number of changes that can be undone
-
-if $COLORTERM == 'gnome-terminal'
-    set t_Co=256
-endif
