@@ -1,3 +1,4 @@
+set nocompatible
 "This is for pathogen.vim, the runtimepath manipulation
 filetype off
 call pathogen#infect()

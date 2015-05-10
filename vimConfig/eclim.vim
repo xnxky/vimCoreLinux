@@ -8,4 +8,6 @@ noremap <silent> <leader>pt :PyLint<CR>
 "add command line back when using Taglist
 set guioptions-=L
 
-let g:EclimCompletionMethod = 'omnifunc'
+if exists('g:vimplugin_running')
+  let g:EclimCompletionMethod = 'omnifunc'
+endif
