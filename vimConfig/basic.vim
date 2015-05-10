@@ -95,3 +95,7 @@ nnoremap <esc> :noh<CR><esc>
 set undofile
 set undodir=$HOME/Tools/vim/tempDir
 set undolevels=999 "maximum number of changes that can be undone
+
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
