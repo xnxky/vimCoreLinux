@@ -58,10 +58,15 @@ set viminfo='100,f1
 syntax enable
 if has('gui_running')
     set background=dark
+    "for solarized to have mark effect, "hi MarkWord<n>" should be added
     colorscheme solarized
 else
-    set t_Co=256
-    colorscheme mayansmoke
+    "the following 2 t_co and g:solarized_termcolors are necessary for
+    "solarized to work
+    set t_Co=16
+    let g:solarized_termcolors=256
+    set background=light
+    colorscheme solarized
 endif
 
 ""************************************************************************************'
