@@ -36,8 +36,6 @@ set novisualbell  " No blinking .
 set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
  
-"set autochdir
-set autochdir
 
 
 " gvim specific
