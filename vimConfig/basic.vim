@@ -8,7 +8,6 @@ set history=256  " Number of things to remember in history.
 set autowrite  " Writes on make/shell commands
 set ruler  " Ruler on
 set nu  " Line numbers on
-set nowrap  " Line wrapping off
 set timeoutlen=1000 " Time to wait after ESC (default causes an annoying delay)
  
 " Formatting (some of these are for coding in C and C++)
