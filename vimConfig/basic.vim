@@ -53,18 +53,7 @@ set directory=$HOME/Tools/vim/tempDir     " Where temporary files will go.
 set viminfo='100,f1
 
 syntax enable
-if has('gui_running')
-    set background=dark
-    "for solarized to have mark effect, "hi MarkWord<n>" should be added
-    colorscheme solarized
-else
-    "the following 2 t_co and g:solarized_termcolors are necessary for
-    "solarized to work
-    set t_Co=16
-    let g:solarized_termcolors=256
-    set background=light
-    colorscheme solarized
-endif
+colorscheme vividchalk 
 
 ""************************************************************************************'
 "self defined mapping
@@ -104,3 +93,20 @@ nnoremap <esc> :noh<CR><esc>
 set undofile
 set undodir=$HOME/Tools/vim/tempDir
 set undolevels=999 "maximum number of changes that can be undone
+
+let g:indentLine_noConcealCursor=""
+
+"https://stackoverflow.com/questions/6488683/how-do-i-change-the-vim-cursor-in-insert-normal-mode
+"change the curse shape in differnt mode
+
+if exists('$TMUX')
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+else
+    let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+      let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
+
+:autocmd InsertEnter * set cul
+:autocmd InsertLeave * set nocul
+"or :autocmd InsertEnter,InsertLeave * set cul!

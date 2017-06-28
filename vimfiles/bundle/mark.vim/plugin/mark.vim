@@ -67,29 +67,29 @@
 
 " default colors/groups
 " you may define your own colors in you vimrc file, in the form as below:
-hi MarkWord1  ctermbg=Cyan     ctermfg=Black  guibg=#00FFFF    guifg=Black
-hi MarkWord2  ctermbg=Green    ctermfg=Black  guibg=#0000FF    guifg=Black
-hi MarkWord3  ctermbg=Yellow   ctermfg=Black  guibg=#8A2BE2    guifg=Black
-hi MarkWord4  ctermbg=Red      ctermfg=Black  guibg=#A52A2A    guifg=Black
-hi MarkWord5  ctermbg=Magenta  ctermfg=Black  guibg=#DEB887    guifg=Black
-hi MarkWord6  ctermbg=Blue     ctermfg=Black  guibg=#5F9EA0    guifg=Black
-hi MarkWord7  ctermbg=Blue     ctermfg=Black  guibg=#7FFF00    guifg=Black
-hi MarkWord8  ctermbg=Blue     ctermfg=Black  guibg=#FF7F50    guifg=Black
-hi MarkWord9  ctermbg=Blue     ctermfg=Black  guibg=#6495ED    guifg=Black
-hi MarkWord10  ctermbg=Blue     ctermfg=Black  guibg=#DC143C    guifg=Black
-hi MarkWord11  ctermbg=Blue     ctermfg=Black  guibg=#BDB76B    guifg=Black
-hi MarkWord12  ctermbg=Blue     ctermfg=Black  guibg=#FF1493    guifg=Black
-hi MarkWord13  ctermbg=Blue     ctermfg=Black  guibg=#FF00FF    guifg=Black
-hi MarkWord14  ctermbg=Blue     ctermfg=Black  guibg=#FFD700    guifg=Black
-hi MarkWord15  ctermbg=Blue     ctermfg=Black  guibg=#CD5C5C    guifg=Black
-hi MarkWord16  ctermbg=Blue     ctermfg=Black  guibg=#4B0082    guifg=Black
-hi MarkWord17  ctermbg=Blue     ctermfg=Black  guibg=#20B2AA    guifg=Black
-hi MarkWord18  ctermbg=Blue     ctermfg=Black  guibg=#B0C4DE    guifg=Black
-hi MarkWord19  ctermbg=Blue     ctermfg=Black  guibg=#FFA500    guifg=Black
-hi MarkWord20  ctermbg=Blue     ctermfg=Black  guibg=#CD853F    guifg=Black
-hi MarkWord21  ctermbg=Blue     ctermfg=Black  guibg=#DDA0DD    guifg=Black
-hi MarkWord22  ctermbg=Blue     ctermfg=Black  guibg=#FF0000    guifg=Black
-hi MarkWord23  ctermbg=Blue     ctermfg=Black  guibg=#9ACD32    guifg=Black
+hi MarkWord1  ctermbg=DarkBlue ctermfg=Black  guibg=#00FFFF    guifg=Black 
+hi MarkWord2  ctermbg=DarkGreen    ctermfg=Black  guibg=#0000FF    guifg=Black 
+hi MarkWord3  ctermbg=DarkCyan   ctermfg=Black  guibg=#8A2BE2    guifg=Black 
+hi MarkWord4  ctermbg=DarkRed      ctermfg=Black  guibg=#A52A2A    guifg=Black 
+hi MarkWord5  ctermbg=DarkMagenta  ctermfg=Black  guibg=#DEB887    guifg=Black 
+hi MarkWord6  ctermbg=Brown     ctermfg=Black  guibg=#5F9EA0    guifg=Black 
+hi MarkWord7  ctermbg=Gray     ctermfg=Black  guibg=#7FFF00    guifg=Black 
+hi MarkWord8  ctermbg=DarkGray     ctermfg=Black  guibg=#FF7F50    guifg=Black 
+hi MarkWord14  ctermbg=Blue     ctermfg=Black  guibg=#FFD700    guifg=Black 
+hi MarkWord9  ctermbg=Green     ctermfg=Black  guibg=#6495ED    guifg=Black 
+hi MarkWord13  ctermbg=Cyan     ctermfg=Black  guibg=#FF00FF    guifg=Black 
+hi MarkWord11  ctermbg=Red     ctermfg=Black  guibg=#BDB76B    guifg=Black 
+hi MarkWord12  ctermbg=Magenta     ctermfg=Black  guibg=#FF1493    guifg=Black 
+hi MarkWord10  ctermbg=Yellow     ctermfg=Black  guibg=#DC143C    guifg=Black 
+hi MarkWord15  ctermbg=White  ctermfg=Black  guibg=#CD5C5C    guifg=Black 
+hi MarkWord16  ctermbg=Blue     ctermfg=Black  guibg=#4B0082    guifg=Black 
+hi MarkWord17  ctermbg=Blue     ctermfg=Black  guibg=#20B2AA    guifg=Black 
+hi MarkWord18  ctermbg=Blue     ctermfg=Black  guibg=#B0C4DE    guifg=Black 
+hi MarkWord19  ctermbg=Blue     ctermfg=Black  guibg=#FFA500    guifg=Black 
+hi MarkWord20  ctermbg=Blue     ctermfg=Black  guibg=#CD853F    guifg=Black 
+hi MarkWord21  ctermbg=Blue     ctermfg=Black  guibg=#DDA0DD    guifg=Black 
+hi MarkWord22  ctermbg=Blue     ctermfg=Black  guibg=#FF0000    guifg=Black 
+hi MarkWord23  ctermbg=Blue     ctermfg=Black  guibg=#9ACD32    guifg=Black 
 
 " Anti reinclusion guards
 if exists('g:loaded_mark') && !exists('g:force_reload_mark')

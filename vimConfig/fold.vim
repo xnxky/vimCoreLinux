@@ -1,5 +1,5 @@
 "Folding Option, if noremap is used, this onw won't work
-set foldmethod=marker
+set foldmethod=syntax
 let html_dynamic_folds=1
 "let html_number_lines=0
 "unlet html_number_lines
@@ -12,3 +12,4 @@ noremap zz za
 "au BufWinEnter * silent loadview
 highlight FoldColumn guibg=Grey25 guifg=#0088FF ctermfg=White ctermbg=DarkBlue term=standout
 
+nnoremap <leader>t :set foldmethod=syntax<cr>

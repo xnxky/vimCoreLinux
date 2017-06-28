@@ -13,8 +13,3 @@ let g:syntastic_mode_map = { "mode": "passive",
 noremap <silent> <leader>se  <Esc>:Errors<CR>
 noremap <silent> <leader>sc  <Esc>:SyntasticCheck<CR>
 noremap <silent> <leader>st  <Esc>:SyntasticToggleMode<CR>
-
-let g:syntastic_scala_scalastyle_jar="$HOME/Tools/scalastyle/scalastyle_2.11-0.7.0-batch.jar"
-let g:syntastic_scala_scalastyle_config_file="$HOME/Tools/scalastyle/scalastyle_config.xml"
-
-let g:syntastic_scala_checkers = ['scalastyle', 'fsc', 'scalac']
