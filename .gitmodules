@@ -1,18 +1,48 @@
-[submodule "vimfiles/bundle/ConqueShell"]
-	path = vimfiles/bundle/ConqueShell
-	url = https://github.com/oplatek/Conque-Shell
-[submodule "vimfiles/bundle/unite"]
-	path = vimfiles/bundle/unite
-	url = https://github.com/Shougo/unite.vim
-[submodule "vimfiles/bundle/autocomplpop"]
-	path = vimfiles/bundle/autocomplpop
-	url = https://github.com/othree/vim-autocomplpop
-[submodule "vimfiles/bundle/L9"]
-	path = vimfiles/bundle/L9
-	url = https://github.com/vim-scripts/L9
+[submodule "vimfiles/bundle/vim-colors-solarized"]
+	path = vimfiles/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "vimfiles/bundle/ack.vim"]
 	path = vimfiles/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim
-[submodule "vimfiles/bundle/vim-colors-solarized"]
-	path = vimfiles/bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
+[submodule "vimfiles/bundle/vim-autocomplpop"]
+	path = vimfiles/bundle/vim-autocomplpop
+	url = https://github.com/othree/vim-autocomplpop.git
+[submodule "vimfiles/bundle/Conque-Shell"]
+	path = vimfiles/bundle/Conque-Shell
+	url = https://github.com/oplatek/Conque-Shell.git
+[submodule "vimfiles/bundle/vim-l9"]
+	path = vimfiles/bundle/vim-l9
+	url = https://github.com/eparreno/vim-l9.git
+[submodule "vimfiles/bundle/unite.vim"]
+	path = vimfiles/bundle/unite.vim
+	url = https://github.com/Shougo/unite.vim.git
+[submodule "vimfiles/bundle/vim-fugitive"]
+	path = vimfiles/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vimfiles/bundle/vim-gitgutter"]
+	path = vimfiles/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vimfiles/bundle/indentLine"]
+	path = vimfiles/bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine
+[submodule "vimfiles/bundle/nerdtree"]
+	path = vimfiles/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vimfiles/bundle/vim-ruby"]
+	path = vimfiles/bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "vimfiles/bundle/vim-rails"]
+	path = vimfiles/bundle/vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "vimfiles/bundle/vim-bundler"]
+	path = vimfiles/bundle/vim-bundler
+	url = git://github.com/tpope/vim-bundler.git
+[submodule "vimfiles/bundle/vim-airline"]
+	path = vimfiles/bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git
+[submodule "vimfiles/bundle/vim-buffergator"]
+	path = vimfiles/bundle/vim-buffergator
+	url = https://github.com/jeetsukumaran/vim-buffergator.git
+[submodule "vimfiles/bundle/vim-markdown"]
+	path = vimfiles/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
