@@ -19,3 +19,13 @@ hi MBENormal guifg=#808080 guibg=#000000
 
 "in buffergator window, <CR> and o,  <C-s> and i, <C-v> and s are equivalent
 let g:buffergator_viewport_split_policy = 'B'"
+
+nnoremap b1 :b1<cr>
+nnoremap b2 :b2<cr>
+nnoremap b3 :b3<cr>
+nnoremap b4 :b4<cr>
+nnoremap b5 :b5<cr>
+nnoremap b6 :b6<cr>
+nnoremap b7 :b7<cr>
+nnoremap b8 :b8<cr>
+nnoremap b9 :b9<cr>
