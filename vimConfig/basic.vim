@@ -1,7 +1,7 @@
 set nocompatible
 let mapleader = ','
-behave mswin
 
+set diffopt=filler,context:0
 set cf  " Enable error files & error jumping.
 set clipboard=unnamedplus
 set history=256  " Number of things to remember in history.
@@ -63,8 +63,8 @@ colorscheme vividchalk
 :nnoremap <leader>sv :source $MYVIMRC<cr>
 
 "this is for addng double quote around words
-:nnoremap <leader>" viw<esc>i"<esc>hbi"<esc>lel
-:nnoremap <leader>' viw<esc>i'<esc>hbi'<esc>lel
+:nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
+:nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
 :vnoremap <leader>" o<esc>i"<esc>gvo<esc>a"<esc>l
 :vnoremap <leader>' o<esc>i'<esc>gvo<esc>a'<esc>l
 "*************************************************************************************
@@ -110,3 +110,6 @@ endif
 :autocmd InsertEnter * set cul
 :autocmd InsertLeave * set nocul
 "or :autocmd InsertEnter,InsertLeave * set cul!
+autocmd BufNewFile,BufRead *.json set ft=javascript
+
+let g:indentLine_noConcealCursor=""

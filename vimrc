@@ -5,7 +5,6 @@ let vimConfigDir = '$HOME/Tools/vim/vimConfig'
 execute 'source '.vimConfigDir.'/pathogen.vim'
 execute 'source '.vimConfigDir.'/basic.vim'
 source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
 execute 'source '.vimConfigDir.'/taglist.vim'
 execute 'source '.vimConfigDir.'/tagbar.vim'
 execute 'source '.vimConfigDir.'/diff.vim'
