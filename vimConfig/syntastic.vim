@@ -1,6 +1,6 @@
-" for syntastic 
-let g:syntastic_enable_signs=1 
-let g:syntastic_auto_loc_list=0 
+" for syntastic
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
 let g:syntastic_auto_jump=0
 let g:syntastic_check_on_open=0
 let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
