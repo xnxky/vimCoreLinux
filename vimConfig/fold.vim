@@ -12,7 +12,7 @@ noremap zz za
 "au BufWinEnter * silent loadview
 highlight FoldColumn guibg=Grey25 guifg=#0088FF ctermfg=White ctermbg=DarkBlue term=standout
 
-nnoremap <leader>t :set foldmethod=syntax \| set foldtext=foldtext()<cr>
+nnoremap <leader>y :set foldmethod=syntax \| set foldtext=foldtext()<cr>
 
 "or nnoremap <leader>t :set foldmethod=syntax <bar> set foldtext=foldtext()<cr>
 "based on this
