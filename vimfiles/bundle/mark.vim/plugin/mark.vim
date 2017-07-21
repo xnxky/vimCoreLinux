@@ -82,14 +82,14 @@ hi MarkWord11  ctermbg=Red     ctermfg=Black  guibg=#BDB76B    guifg=Black
 hi MarkWord12  ctermbg=Magenta     ctermfg=Black  guibg=#FF1493    guifg=Black 
 hi MarkWord10  ctermbg=Yellow     ctermfg=Black  guibg=#DC143C    guifg=Black 
 hi MarkWord15  ctermbg=White  ctermfg=Black  guibg=#CD5C5C    guifg=Black 
-hi MarkWord16  ctermbg=Blue     ctermfg=Black  guibg=#4B0082    guifg=Black 
-hi MarkWord17  ctermbg=Blue     ctermfg=Black  guibg=#20B2AA    guifg=Black 
-hi MarkWord18  ctermbg=Blue     ctermfg=Black  guibg=#B0C4DE    guifg=Black 
-hi MarkWord19  ctermbg=Blue     ctermfg=Black  guibg=#FFA500    guifg=Black 
-hi MarkWord20  ctermbg=Blue     ctermfg=Black  guibg=#CD853F    guifg=Black 
-hi MarkWord21  ctermbg=Blue     ctermfg=Black  guibg=#DDA0DD    guifg=Black 
+hi MarkWord16  ctermbg=DarkGreen     ctermfg=Black  guibg=#4B0082    guifg=Black 
+hi MarkWord17  ctermbg=DarkCyan     ctermfg=Black  guibg=#20B2AA    guifg=Black 
+hi MarkWord18  ctermbg=DarkRed     ctermfg=Black  guibg=#B0C4DE    guifg=Black 
+hi MarkWord19  ctermbg=DarkMagenta     ctermfg=Black  guibg=#FFA500    guifg=Black 
+hi MarkWord20  ctermbg=Brown     ctermfg=Black  guibg=#CD853F    guifg=Black 
+hi MarkWord21  ctermbg=Gray     ctermfg=Black  guibg=#DDA0DD    guifg=Black 
 hi MarkWord22  ctermbg=Blue     ctermfg=Black  guibg=#FF0000    guifg=Black 
-hi MarkWord23  ctermbg=Blue     ctermfg=Black  guibg=#9ACD32    guifg=Black 
+hi MarkWord23  ctermbg=Red     ctermfg=Black  guibg=#9ACD32    guifg=Black 
 
 " Anti reinclusion guards
 if exists('g:loaded_mark') && !exists('g:force_reload_mark')
