@@ -34,5 +34,6 @@ execute 'source '.vimConfigDir.'/ConqueTerm.vim'
 execute 'source '.vimConfigDir.'/unite.vim'
 execute 'source '.vimConfigDir.'/cscope.vim'
 execute 'source '.vimConfigDir.'/vimpy.vim'
+execute 'source '.vimConfigDir.'/go.vim'
 set autochdir
 "*************************************************************************

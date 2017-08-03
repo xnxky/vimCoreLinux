@@ -113,3 +113,7 @@ endif
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
 let g:indentLine_noConcealCursor=""
+
+"golang
+"format with goimports instead of gofmt
+let g:go_fmt_command = "goimports""

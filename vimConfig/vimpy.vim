@@ -67,7 +67,7 @@ endif
 
 fun! s:UpdateIndex()
 python << endpython
-if vim.current.buffer.name in st.paths:
+if st and vim.current.buffer.name in st.paths:
     vimpy.st = st
     vimpy.parsefile(vim.current.buffer.name)
 endpython
