@@ -55,6 +55,8 @@ set viminfo='100,f1
 syntax enable
 colorscheme vividchalk 
 
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
 ""************************************************************************************'
 "self defined mapping
 
