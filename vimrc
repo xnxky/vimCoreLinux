@@ -35,5 +35,7 @@ execute 'source '.vimConfigDir.'/unite.vim'
 execute 'source '.vimConfigDir.'/cscope.vim'
 execute 'source '.vimConfigDir.'/vimpy.vim'
 execute 'source '.vimConfigDir.'/go.vim'
+source /google/src/head/depot/google3/tools/gsearch/contrib/csearch.vim
+execute 'source '.vimConfigDir.'/csearch.vim'
 set autochdir
 "*************************************************************************

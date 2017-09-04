@@ -94,6 +94,12 @@ set undofile
 set undodir=$HOME/Tools/vim/tempDir
 set undolevels=999 "maximum number of changes that can be undone
 
+set cursorline
+set cursorcolumn
+hi CursorLine cterm=standout ctermbg=darkred ctermfg=white
+
+:nnoremap <leader>c :set cursorline cursorcolumn!<CR>
+
 let g:indentLine_noConcealCursor=""
 
 "https://stackoverflow.com/questions/6488683/how-do-i-change-the-vim-cursor-in-insert-normal-mode
