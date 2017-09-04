@@ -96,9 +96,10 @@ set undolevels=999 "maximum number of changes that can be undone
 
 set cursorline
 set cursorcolumn
-hi CursorLine cterm=standout ctermbg=darkred ctermfg=white
 
-:nnoremap <leader>c :set cursorline cursorcolumn!<CR>
+
+:nnoremap <leader>c :set cursorline! cursorcolumn!<CR>
+:nnoremap <leader>h :highlight CursorLine ctermbg=grey<CR>
 
 let g:indentLine_noConcealCursor=""
 
