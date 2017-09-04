@@ -96,10 +96,12 @@ set undolevels=999 "maximum number of changes that can be undone
 
 set cursorline
 set cursorcolumn
+highlight cursorline ctermbg=4
 
+autocmd VimEnter * highlight cursorline ctermbg=4
 
-:nnoremap <leader>c :set cursorline! cursorcolumn!<CR>
-:nnoremap <leader>h :highlight CursorLine ctermbg=grey<CR>
+:nnoremap <leader>c :set cursorline<CR>
+:nnoremap <leader>h :set cursorline! cursorcolumn!<CR>
 
 let g:indentLine_noConcealCursor=""
 
