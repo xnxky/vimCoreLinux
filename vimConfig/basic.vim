@@ -101,6 +101,7 @@ set cursorcolumn
 highlight cursorline ctermbg=4
 
 autocmd VimEnter * highlight cursorline ctermbg=4
+autocmd VimEnter * highlight cursorcolumn ctermbg=4
 
 :nnoremap <leader>c :set cursorline<CR>
 :nnoremap <leader>h :set cursorline! cursorcolumn!<CR>
