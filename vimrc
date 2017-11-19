@@ -1,4 +1,3 @@
-
 ""************************************************************************
 "this is to source all the customized settings files
 let vimConfigDir = '$HOME/Tools/vim/vimConfig'
@@ -35,7 +34,11 @@ execute 'source '.vimConfigDir.'/unite.vim'
 execute 'source '.vimConfigDir.'/cscope.vim'
 execute 'source '.vimConfigDir.'/vimpy.vim'
 execute 'source '.vimConfigDir.'/go.vim'
-source /google/src/head/depot/google3/tools/gsearch/contrib/csearch.vim
-execute 'source '.vimConfigDir.'/csearch.vim'
 set autochdir
 "*************************************************************************
+""************************************************************************
+" google plugins
+execute 'source /usr/share/vim/google/google.vim'
+execute 'source /google/src/head/depot/google3/tools/gsearch/contrib/csearch.vim'
+execute 'source '.vimConfigDir.'/google.vim'
+filetype plugin indent on
