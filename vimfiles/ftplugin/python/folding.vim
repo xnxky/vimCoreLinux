@@ -1,6 +1,8 @@
 setlocal foldmethod=expr
 setlocal foldexpr=GetXXYPythonFold(v:lnum)
 
+nnoremap <leader>yp :set foldmethod=expr \| set foldtext=foldtext()<cr>
+
 function! NextNonBlankLine(lnum)
     let numlines = line('$')
     let current = a:lnum + 1

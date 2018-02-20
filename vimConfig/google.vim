@@ -1,14 +1,14 @@
 Glug codefmt
 Glug codefmt-google
 augroup autoformat_settings
-autocmd FileType borg,gcl,patchpanel AutoFormatBuffer gclfmt
+""autocmd FileType borg,gcl,patchpanel AutoFormatBuffer gclfmt
 autocmd FileType bzl AutoFormatBuffer buildifier
-autocmd FileType c,cpp,proto,javascript AutoFormatBuffer clang-format
+""autocmd FileType c,cpp,proto,javascript AutoFormatBuffer clang-format
 autocmd FileType dart AutoFormatBuffer dartfmt
 autocmd FileType java AutoFormatBuffer google-java-format
 autocmd FileType jslayout AutoFormatBuffer jslfmt
 autocmd FileType go AutoFormatBuffer gofmt
-autocmd FileType python AutoFormatBuffer pyformat
+""autocmd FileType python AutoFormatBuffer pyformat
 autocmd FileType markdown AutoFormatBuffer mdformat
 autocmd FileType ncl AutoFormatBuffer nclfmt
 augroup END
