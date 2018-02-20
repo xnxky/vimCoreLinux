@@ -13,7 +13,8 @@ autocmd FileType markdown AutoFormatBuffer mdformat
 autocmd FileType ncl AutoFormatBuffer nclfmt
 augroup END
 
-Glug piper plugin[mappings]=',ap'
+"" not work
+""Glug piper plugin[mappings]=',ap'
 Glug relatedfiles plugin[mappings]=',ar'
 
 Glug g4
@@ -24,5 +25,9 @@ Glug g4
 " very slow
 Glug csearch
 nnoremap <leader>cs :Csearch <C-R><C-W><CR><CR>
+
+"" not work in visual mode as my "," is used for something else.
+"" just use FormatLines instead, like `:12, 30 FormatLines`, much easier.
+""nnoremap <leader>a :FormatLines<CR>
 
 Glug add_usings plugin[mappings]
