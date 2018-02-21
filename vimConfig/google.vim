@@ -13,9 +13,10 @@ autocmd FileType markdown AutoFormatBuffer mdformat
 autocmd FileType ncl AutoFormatBuffer nclfmt
 augroup END
 
-"" not work
-""Glug piper plugin[mappings]=',ap'
-Glug relatedfiles plugin[mappings]=',ar'
+"" pipe mapping, needed for "<leader>apf" to work
+"" can not use "<leader>p", which is for files search.
+Glug piper plugin[mappings]='<leader>ap'
+Glug relatedfiles plugin[mappings]='<leader>ar'
 
 Glug g4
 
