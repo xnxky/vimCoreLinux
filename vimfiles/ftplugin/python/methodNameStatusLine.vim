@@ -1,4 +1,7 @@
-let g:airline_section_x = '%{GetPythonMethodName()}'
+" comment out this line as it will make the opening of a python file to insert mode; besides, the built-in one seems to work fine for python.
+""let g:airline_section_x = '%{GetPythonMethodName()}'
+
+
 "let s:saved_statusline = &statusline
 function! GetPythonMethodName() range
 
