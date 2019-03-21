@@ -74,7 +74,7 @@ hi MarkWord4  ctermbg=DarkRed      ctermfg=Black  guibg=#A52A2A    guifg=Black
 hi MarkWord5  ctermbg=DarkMagenta  ctermfg=Black  guibg=#DEB887    guifg=Black 
 hi MarkWord6  ctermbg=Brown     ctermfg=Black  guibg=#5F9EA0    guifg=Black 
 hi MarkWord7  ctermbg=Gray     ctermfg=Black  guibg=#7FFF00    guifg=Black 
-hi MarkWord8  ctermbg=DarkGray     ctermfg=Black  guibg=#FF7F50    guifg=Black 
+hi MarkWord8  ctermbg=DarkGray     ctermfg=Black  guibg=#0F7F50    guifg=Black 
 hi MarkWord14  ctermbg=Blue     ctermfg=Black  guibg=#FFD700    guifg=Black 
 hi MarkWord9  ctermbg=Green     ctermfg=Black  guibg=#6495ED    guifg=Black 
 hi MarkWord13  ctermbg=Cyan     ctermfg=Black  guibg=#FF00FF    guifg=Black 

@@ -53,7 +53,8 @@ set directory=$HOME/Tools/vim/tempDir     " Where temporary files will go.
 set viminfo='100,f1
 
 syntax enable
-colorscheme vividchalk 
+set background=dark
+colorscheme solarized
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
@@ -96,12 +97,12 @@ set undofile
 set undodir=$HOME/Tools/vim/tempDir
 set undolevels=999 "maximum number of changes that can be undone
 
-set cursorline
-set cursorcolumn
-highlight cursorline ctermbg=4
+""set cursorline
+""set cursorcolumn
+""highlight cursorline ctermbg=4
 
-autocmd VimEnter * highlight cursorline ctermbg=4
-autocmd VimEnter * highlight cursorcolumn ctermbg=4
+""autocmd VimEnter * highlight cursorline ctermbg=4
+""autocmd VimEnter * highlight cursorcolumn ctermbg=4
 
 :nnoremap <leader>cr :set cursorline!<CR>
 :nnoremap <leader>cc :set cursorcolumn!<CR>
