@@ -3,7 +3,7 @@ let mapleader = ','
 
 set diffopt=filler,context:0
 set cf  " Enable error files & error jumping.
-set clipboard=unnamedplus
+"set clipboard=unnamedplus " breaks the clipboard
 set history=256  " Number of things to remember in history.
 set autowrite  " Writes on make/shell commands
 set ruler  " Ruler on
@@ -90,7 +90,7 @@ set wmw=0
 "noremap <C-,>  <C-W><lt>
 
 "***********************************************************************************
-nnoremap <esc> :noh<CR><esc>
+"nnoremap <esc> :noh<CR><esc>  "keep popping local window with a lot of info
 
 "persistent undo
 set undofile

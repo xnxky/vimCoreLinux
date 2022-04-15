@@ -25,20 +25,20 @@ execute 'source '.vimConfigDir.'/rope.vim'
 execute 'source '.vimConfigDir.'/gundo.vim'
 execute 'source '.vimConfigDir.'/syntastic.vim'
 execute 'source '.vimConfigDir.'/makegreen.vim'
-execute 'source '.vimConfigDir.'/virtualenv.vim'
+"execute 'source '.vimConfigDir.'/virtualenv.vim'
 execute 'source '.vimConfigDir.'/ultisnips.vim'
 execute 'source '.vimConfigDir.'/indent.vim'
 execute 'source '.vimConfigDir.'/ctrlp.vim'
 execute 'source '.vimConfigDir.'/ConqueTerm.vim'
 execute 'source '.vimConfigDir.'/unite.vim'
 execute 'source '.vimConfigDir.'/cscope.vim'
-execute 'source '.vimConfigDir.'/vimpy.vim'
+"execute 'source '.vimConfigDir.'/vimpy.vim'
 execute 'source '.vimConfigDir.'/go.vim'
 set autochdir
 "*************************************************************************
 ""************************************************************************
 " google plugins
-execute 'source /usr/share/vim/google/google.vim'
-execute 'source /google/src/head/depot/google3/tools/gsearch/contrib/csearch.vim'
-execute 'source '.vimConfigDir.'/google.vim'
+"execute 'source /usr/share/vim/google/google.vim'
+"execute 'source /google/src/head/depot/google3/tools/gsearch/contrib/csearch.vim'
+"execute 'source '.vimConfigDir.'/google.vim'
 filetype plugin indent on
