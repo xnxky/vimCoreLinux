@@ -4,6 +4,7 @@ let mapleader = ','
 set diffopt=filler,context:0
 set cf  " Enable error files & error jumping.
 "set clipboard=unnamedplus " breaks the clipboard
+set clipboard=unnamed
 set history=256  " Number of things to remember in history.
 set autowrite  " Writes on make/shell commands
 set ruler  " Ruler on
